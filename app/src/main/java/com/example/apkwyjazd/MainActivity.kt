@@ -13,7 +13,7 @@ import java.time.ZoneId
 import java.util.*
 import kotlin.math.absoluteValue
 
-
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
